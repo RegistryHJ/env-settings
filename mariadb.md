@@ -208,7 +208,7 @@ CREATE USER ‘[DBUserName]’@‘%’ identified by ‘[DBUserPassword]’;
 ### MariaDB에 Database 추가:
 
 ```sql
-CREATE DATABASE ‘[DB Name]’ DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE ‘[DBName]’ DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 ```
 
 ### MariaDB Database에 User 권한 부여:
