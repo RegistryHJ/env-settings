@@ -24,7 +24,7 @@ wsl —shutdown
 ### Ubuntu tar 파일로 내보내기:
 
 ```posh
-wsl --export Ubuntu “[내보낼 경로]"\Ubuntu.tar
+wsl --export Ubuntu "[내보낼 경로]"\Ubuntu.tar
 ```
 
 ### Ubuntu 등록 해제:
@@ -36,7 +36,7 @@ wsl --unregister Ubuntu
 ### Ubuntu 원하는 경로로 가져오기:
 
 ```posh
-wsl --import Ubuntu “[원하는 경로]”\Ubuntu “[내보내기 한 파일 경로]”\Ubuntu.tar
+wsl --import Ubuntu "[원하는 경로]"\Ubuntu "[내보내기 한 파일 경로]"\Ubuntu.tar
 ```
 
 <br>

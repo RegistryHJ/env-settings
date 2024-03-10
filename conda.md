@@ -60,7 +60,7 @@ exit
 ### Conda 가상환경 만들기:
 
 ```zsh
-conda create -n “[EnvName]” python=“[Version]”
+conda create -n "[EnvName]" python="[Version]"
 ```
 
 ### Conda 가상환경 리스트 보기:
@@ -72,13 +72,13 @@ conda env list
 ### Conda 가상환경 활성화:
 
 ```zsh
-conda activate “[EnvName]”
+conda activate "[EnvName]"
 ```
 
 ### Conda 가상환경에 패키지 설치:
 
 ```zsh
-conda install “[PakageName]”
+conda install "[PakageName]"
 ```
 
 ### Conda 가상환경 비활성화:
@@ -90,5 +90,5 @@ conda deactivate
 ### Conda 가상환경 제거:
 
 ```zsh
-conda remove -n “[EnvName]” --all
+conda remove -n "[EnvName]" --all
 ```

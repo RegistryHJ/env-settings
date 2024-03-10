@@ -24,7 +24,7 @@ nvm i —lts
 ### 설치된 Node.js 버전 중 원하는 버전으로 변경:
 
 ```zsh
-nvm use “[버전]”
+nvm use "[버전]"
 ```
 
 ### npm 업데이트:

@@ -15,7 +15,7 @@ sudo apt install git
 ### Git Global User 정보 입력:
 
 ```zsh
-git config --global user.name “[GitUserName]”
+git config --global user.name "[GitUserName]"
 ```
 
 ### Git Global Email 정보 입력:
