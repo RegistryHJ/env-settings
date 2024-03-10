@@ -128,7 +128,7 @@ docker run --detach --name "[ContainerName]" --publish 3306:3306 --env MARIADB_R
 ### Container bash에 액세스하기:
 
 ```zsh
-docker exec -it “[ContainerName]” bash
+docker exec -it "[ContainerName]" bash
 ```
 
 <br>
