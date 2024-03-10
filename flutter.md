@@ -17,10 +17,18 @@ unzip flutter_macos_arm64_3.19.3-stable.zip -d ~/.flutter
 sudo nano ~/.zshrc
 ```
 
-### `PATH`에 Flutter SDK 경로 추가:
+### `PATH`에 Flutter SDK 경로 추가
+
+`Ubuntu`:
 
 ```nano
-export PATH="/Users/registry/.flutter/flutter/bin:$PATH"
+export PATH="/home/"[UserName]"/.flutter/flutter/bin:$PATH"
+```
+
+`MacOS`:
+
+```nano
+export PATH="/Users/"[UserName]"/.flutter/flutter/bin:$PATH"
 ```
 
 ### `~/.zshrc` 적용:
