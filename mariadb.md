@@ -202,25 +202,25 @@ mariadb
 ### MariaDB에 User 추가:
 
 ```sql
-CREATE USER ‘[DBUserName]’@‘%’ identified by ‘[DBUserPassword]’;
+CREATE USER `[DBUserName]`@`%` IDENTIFIED BY '[DBUserPassword]';
 ```
 
 ### MariaDB에 Database 추가:
 
 ```sql
-CREATE DATABASE ‘[DBName]’ DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE `[DBName]` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 ```
 
 ### MariaDB Database에 User 권한 부여:
 
 ```sql
-GRANT ALL PRIVILIGES ON ‘[DBName]’.* TO ‘[DBUserName]’@‘%’;
+GRANT ALL PRIVILEGES ON `[DBName]`.* TO `[DBUserName]`@`%`;
 ```
 
 ### MariaDB 캐시 초기화:
 
 ```sql
-FLUSH PRIVILIGES;
+FLUSH PRIVILEGES;
 ```
 
 ### MariaDB Shell에서 나가기:
@@ -232,19 +232,19 @@ exit
 ### MariaDB 실행 (User):
 
 ```zsh
-sudo mariadb -u ‘[DBUserName]’ -p
+sudo mariadb -u [DBUserName] -p
 ```
 
 or `Docker`
 
 ```zsh
-mariadb -u ‘[DBUserName]’ -p
+mariadb -u [DBUserName] -p
 ```
 
 ### MariaDB Database에 접속:
 
 ```sql
-USE ‘[DBName]’;
+USE `[DBName]`;
 ```
 
 ### MariaDB Shell에서 나가기:
