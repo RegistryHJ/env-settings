@@ -32,15 +32,3 @@ nvm use "[버전]"
 ```zsh
 npm i -g npm
 ```
-
-### yarn 설치:
-
-```zsh
-npm i -g yarn
-```
-
-### yarn 버전을 2로 초기화:
-
-```zsh
-yarn init -2
-```
